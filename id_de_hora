@@ -16,13 +16,13 @@ class CalcularHoras{
             
               System.out.println("VERIFICAR VALORES A RECEBER");
             
-            System.out.println("--------------------------")
+            System.out.println("--------------------------");
             
-            System.out.println("Digite o valor de horas trabalhadas durante a semana")
+            System.out.println("Digite o valor de horas trabalhadas durante a semana");
             
             Scanner horas = new Scanner(System.in);
             
-            String HorasTrabalhadas = horas.next()
+            String HorasTrabalhadas = horas.next();
             
             System.out.println("Por favor, anote seu protocolo "+protocolo);
             
