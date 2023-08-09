@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.Scanner;
 
 class CalcularHoras{
     public static void main(String [] args) {
@@ -13,7 +14,17 @@ class CalcularHoras{
             
             //pede ao usuario o valor de horas trabalhadas na semana 
             
-            System.out.println("Por favor, anote seu protocolo"+protocolo);
+              System.out.println("VERIFICAR VALORES A RECEBER");
+            
+            System.out.println("--------------------------")
+            
+            System.out.println("Digite o valor de horas trabalhadas durante a semana")
+            
+            Scanner horas = new Scanner(System.in);
+            
+            String HorasTrabalhadas = horas.next()
+            
+            System.out.println("Por favor, anote seu protocolo "+protocolo);
             
         
             
